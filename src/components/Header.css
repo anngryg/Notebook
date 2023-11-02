@@ -1,0 +1,17 @@
+header {
+  background: rgb(220, 84, 200);
+  background: linear-gradient(
+    90deg,
+    rgba(220, 84, 200, 1) 0%,
+    rgba(109, 70, 141, 1) 100%
+  );
+  margin: auto -16px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: #ffffff;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+}

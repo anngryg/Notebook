@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Titillium Web", sans-serif;
+}
+body {
+  background: #ffffff;
+  padding: 0 16px;
+}
