@@ -1,11 +1,13 @@
 .note {
-  background: rgba(203, 117, 190, 0.559);
+  background: rgb(221, 209, 226);
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
   width: 240px;
   margin: 16px;
   float: left;
+  display: flex;
+  flex-direction: column;
 }
 .note h1 {
   font-size: 1.1em;
@@ -16,4 +18,12 @@
   margin-bottom: 10px;
   white-space: pre-wrap;
   word-wrap: break-word;
+}
+.note button {
+  cursor: pointer;
+  font-size: x-large;
+  background-color: transparent;
+  padding: 10px;
+  align-self: center;
+  border: none;
 }
