@@ -36,7 +36,7 @@ form button:hover {
   background-color: #7e5c8c;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 700px) {
   form {
     width: 90vw;
   }
